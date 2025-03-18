@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --primary-color: #550FED;
+    --secondary-color: #CCB7F9;
+    --black: #1E1E1E;
+    --gray: #716C7C;
+    --border: #C8C2D6;
+    --background: #F2F4F5; 
+}
+
+html{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Resete */ 
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul, li{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+/* Fim do Reset*/
+
+header{
+    background-color: var(--primary-color);
+    padding: 20px 64px;
+}
+
+.container{
+    width: 1205px;
+    margin: 0px auto;
+}
+
+.display-flex{
+    display: flex;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-bottom: 84px;
+}
+
+nav ul{
+    gap: 72px;
+}
+
+nav ul li a{
+    color: var(--secondary-color);
+}
+
+nav ul li a:hover{
+    color: var(--black);
+}
+div h2{
+    color: white;
+    text-align: center;
+}
+form{
+    background-color: #ffffff;
+    width: 843px;
+    margin: 0px auto;
+    padding: 20px 24px;
+    border-radius: 8px;
+}
+
+form button{
+    background-color: var(--black);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 14px 82px;
+    border-radius: 8px;
+}
+
+form input{
+    background-color: transparent;
+    width: 72%;
+    border: none;
+    height: 35px;
+}
